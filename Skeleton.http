@@ -1,0 +1,9 @@
+@Skeleton_HostAddress = http://localhost:5299
+
+GET {{Skeleton_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Skeleton_HostAddress}}/user/
+Accept: application/json
